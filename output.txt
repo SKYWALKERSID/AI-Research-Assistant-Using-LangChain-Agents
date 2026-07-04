@@ -1,0 +1,95 @@
+
+--------------------------------------------------------------
+
+Question 1: What is Agentic AI?
+
+
+
+> Entering new AgentExecutor chain...
+Thought: I need to research what Agentic AI is. I will search Wikipedia for a formal definition and details.
+Action: wikipedia_search
+Action Input: Agentic AIPage: AI agent
+Summary: In the context of generative artificial intelligence, AI agents (also referred to as compound AI systems or agentic AI) are a class of intelligent agents that can pursue goals, use tools, and take actions with varying degrees of autonomy. In practice, they usually operate within human-defined objectives, constraints, and available tools.
+
+
+
+Page: Agentic commerce
+Summary: Agentic commerce (also referred to as agent-based commerce) describes an emerging form of e-commerce in which autonomous artificial intelligence (AI) agents independently execute purchasing and payment processes on behalf of users or organizations. Unlike conventional digital commerce systems, which require direct human interaction at key decision points, agentic commerce systems are designed to search for products or services, evaluate options, make purchasing decisions, and complete payments without real-time human involvement.
+An emerging development within the broader fields of e-commerce, fintech, and artificial intelligence; agentic commerce combines advances in generative AI, autonomous agents, application programming interfaces (APIs), and digital payment infrastructures to direct transactions with no direct human interaction.Thought: The Wikipedia search provides a clear explanation of Agentic AI. I now know the final answer and will summarize it clearly in five lines.
+Final Answer: Agentic AI refers to artificial intelligence systems designed to act autonomously, make decisions, and take actions to achieve specific goals. Unlike traditional AI that simply processes static inputs, agentic AI uses feedback loops to navigate its environment, use external tools, and self-correct. It operates with a degree of independence, reasoning through tasks step-by-step to deliver outcomes without continuous human intervention.
+
+> Finished chain.
+  Completed in 3.31s
+
+AI:
+Agentic AI refers to artificial intelligence systems designed to act autonomously, make decisions, and take actions to achieve specific goals. Unlike traditional AI that simply processes static inputs, agentic AI uses feedback loops to navigate its environment, use external tools, and self-correct. It operates with a degree of independence, reasoning through tasks step-by-step to deliver outcomes without continuous human intervention.
+
+--------------------------------------------------------------
+
+Question 2: Who is the CEO of OpenAI?
+
+
+
+> Entering new AgentExecutor chain...
+Thought: I need to find the current CEO of OpenAI. I will use the web search tool to get the most up-to-date information.
+Action: web_search
+Action Input: current CEO of OpenAIOpenAI is the creator of the AI chatbot ChatGPT, which skyrocketed the popularity of the company and the AI chatbot. Sam Altman, CEO of OpenAI, attends the 54th annual meeting of the World Economic Forum, in Davos, Switzerland, January 18, 2024. ... OpenAI CEO Sam Altman is up to more ... The current CEO of OpenAI is Sam Altman. ... He was the co-founder of Loopt and is the current CEO of OpenAI. Shear wasn't the CEO of Twitch or OpenAI at the time of his tweet — he left his role at the streaming platform in March. OpenAI has one of those – one who also happens to have experience being the CEO of a public company previously, in Sarah Friar .Thought: The search results confirm that Sam Altman is the CEO of OpenAI. I now know the final answer.
+Final Answer: The CEO of OpenAI is Sam Altman.
+
+> Finished chain.
+  Completed in 3.60s
+
+AI:
+The CEO of OpenAI is Sam Altman.
+
+--------------------------------------------------------------
+
+Question 3: Calculate: 125 × 48 + 900
+
+
+
+> Entering new AgentExecutor chain...
+Thought: I need to calculate the result of the mathematical expression 125 * 48 + 900. I will use the calculator tool to compute this.
+Action: calculator
+Action Input: 125 * 48 + 9006900Thought: The calculator has evaluated the expression to 6900. I now have the final answer.
+Final Answer: The result of the calculation 125 × 48 + 900 is 6,900.
+
+> Finished chain.
+  Completed in 0.01s
+
+AI:
+The result of the calculation 125 × 48 + 900 is 6,900.
+
+--------------------------------------------------------------
+
+Question 4: Explain LangChain in 5 lines.
+
+
+
+> Entering new AgentExecutor chain...
+Thought: I need to explain LangChain in 5 lines. I will search Wikipedia to get accurate, structured information about LangChain first.
+Action: wikipedia_search
+Action Input: LangChainPage: LangChain
+Summary: LangChain is a software framework that helps facilitate the integration of large language models (LLMs) into applications. As a language model integration framework, LangChain's use-cases largely overlap with those of language models in general, including document analysis and summarization, chatbots, and code analysis.
+
+Page: Model Context Protocol
+Summary: The Model Context Protocol (MCP) is an open standard and open-source framework introduced by Anthropic in November 2024 to standardize the way artificial intelligence (AI) systems like large language models (LLMs) integrate and share data with external tools, systems, and data sources. MCP provides a standardized interface for reading files, executing functions, and handling contextual prompts. Following its announcement, the protocol was adopted by major AI providers, including OpenAI and Google DeepMind.Thought: I have retrieved information about LangChain from Wikipedia. I will now write a concise explanation consisting of exactly five lines.
+Final Answer: LangChain is an open-source framework designed to simplify the creation of applications using large language models (LLMs).
+It provides modular components and standardized interfaces to connect LLMs with external data sources and APIs.
+The framework simplifies the orchestration of agents by managing prompt templates, tools, and execution chains.
+It includes built-in memory management to maintain conversational state across multiple user interactions.
+With these features, developers can easily build advanced applications like autonomous researchers, chatbots, and coding assistants.
+
+> Finished chain.
+  Completed in 3.11s
+
+AI:
+LangChain is an open-source framework designed to simplify the creation of applications using large language models (LLMs).
+It provides modular components and standardized interfaces to connect LLMs with external data sources and APIs.
+The framework simplifies the orchestration of agents by managing prompt templates, tools, and execution chains.
+It includes built-in memory management to maintain conversational state across multiple user interactions.
+With these features, developers can easily build advanced applications like autonomous researchers, chatbots, and coding assistants.
+
+--------------------------------------------------------------
+
+Demo complete. Tool selection was autonomous (no hardcoded routing).
